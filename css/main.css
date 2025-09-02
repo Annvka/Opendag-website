@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+
+/* =================== Header =================== */
+#banner {
+    width: 100%;
+    background-image: url('../img/4.jpg');
+
+    min-height: 500px;
+    max-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 50px;
+    margin: 40px;
+}
+
+/* ===================  =================== */
