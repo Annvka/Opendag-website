@@ -139,14 +139,11 @@ section {
 /* Section texts */
 h2 {
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .textStart {
-    margin-top: 20px;
-}
-
-.textBeginMiddle {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .textMiddle {
