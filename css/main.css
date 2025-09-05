@@ -212,3 +212,14 @@ h4 {
     
     margin-bottom: 20px;
 }
+
+
+/* ============================== Footer  ============================== */
+footer {
+    background-color: #004c35;
+    color: #ffffff;
+
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
