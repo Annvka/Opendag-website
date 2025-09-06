@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root {
+    --main-yellow: #ffcc00;
+    --accent-green: #004c35;
+    --text-white: #ffffff;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,7 +16,7 @@ body {
 /* ============================== Banner header ============================== */
 #banner {
     background-image: url('../img/banner.png');
-    background-color: #ffcc00;
+    background-color: var(--main-yellow);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -31,7 +37,7 @@ body {
 }
 
 #bannerText {
-    color: #ffffff;
+    color: var(--text-white);
     text-align: center;
 
     width: 500px;
@@ -63,8 +69,8 @@ h1 {
 .headerblocks {
     display: flex;
     flex-direction: column;
-    background-color: #004c35;
-    color: #ffffff;
+    background-color: var(--accent-green);
+    color: var(--text-white);
 
     width: 310px;
     height: 200px;
@@ -96,7 +102,7 @@ i {
 }
 
 .info {
-    color: #ffffff;
+    color: var(--text-white);
     text-decoration: none;
     margin-bottom: 15px;
 
@@ -115,8 +121,8 @@ i {
 .normalSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #ffcc00;
-    color: #004c35;
+    background-color: var(--main-yellow);
+    color: var(--accent-green);
 
     margin-bottom: 100px;
 }
@@ -156,7 +162,7 @@ h2 {
 
 .register {
     display: block;
-    color: #004c35;
+    color: var(--accent-green);
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -165,8 +171,8 @@ h2 {
     padding: 5px;
 
     &:hover {
-        background-color: #004c35;
-        color: #ffffff;
+        background-color: var(--accent-green);
+        color: var(--text-white);
         width: 130px;
     }
 }
@@ -188,8 +194,8 @@ span {
 .class {
     display: flex;
     flex-direction: column;
-    background-color: #ffcc00;
-    color: #004c35;
+    background-color: var(--main-yellow);
+    color: var(--accent-green);
 
     width: 210px;
     height: 150px;
@@ -203,8 +209,8 @@ span {
 }
 
 .classText {
-    background-color: #004c35;
-    color: #ffffff;
+    background-color: var(--accent-green);
+    color: var(--text-white);
     text-align: center;
     padding: 8px;
 }
@@ -221,8 +227,8 @@ h4 {
 
 /* ============================== Footer  ============================== */
 footer {
-    background-color: #004c35;
-    color: #ffffff;
+    background-color: var(--accent-green);
+    color: var(--text-white);
 
     font-size: 20px;
     text-align: center;
